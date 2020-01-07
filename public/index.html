@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Nick Evans | Web Developer</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- Favicons -->
+    <link href="img/favicon.ico" rel="icon" />
+    <link href="img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <!-- Bootstrap CSS File -->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Libraries CSS Files -->
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+
+    <!-- Main Stylesheet File -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body id="page-top">
+    <nav
+      class="navbar navbar-b navbar-trans navbar-expand-md fixed-top"
+      id="mainNav"
+    >
+      <div class="container">
+        <a class="navbar-brand js-scroll" href="#page-top">Nick Evans</a>
+        <button
+          class="navbar-toggler collapsed"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarDefault"
+          aria-controls="navbarDefault"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div
+          class="navbar-collapse collapse justify-content-end"
+          id="navbarDefault"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link js-scroll active" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll" href="#work">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div
+      id="home"
+      class="intro route bg-image"
+      style="background-image: url(img/background-top.jpg)"
+    >
+      <div class="overlay-itro"></div>
+      <div class="intro-content display-table">
+        <div class="table-cell">
+          <div class="container">
+            <h1 class="intro-title mb-4">I am Nick Evans</h1>
+            <p class="intro-subtitle">
+              <span>
+                A Full Stack Web Developer based in LA/OC
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section id="work" class="portfolio-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h3 class="title-a">
+                Featured Work
+              </h3>
+
+              <div class="line-mf"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4">
+            <div class="work-box">
+              <div class="btn" data-toggle="modal" data-target="#skateSpots">
+                <div class="work-img">
+                  <img src="img/work-1.jpg" alt="" class="img-fluid" />
+                </div>
+                <div class="work-content">
+                  <div class="row">
+                    <div class="col-sm-8">
+                      <h2 class="w-title">Let's Skate!</h2>
+                      <div class="w-more">
+                        <span class="w-date">Django </span> /
+                        <span class="w-ctegory">Python</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <div class="btn" data-toggle="modal" data-target="#skateShop">
+                <div class="work-img">
+                  <img src="img/work-2.jpg" alt="" class="img-fluid" />
+                </div>
+                <div class="work-content">
+                  <div class="row">
+                    <div class="col-sm-8">
+                      <h2 class="w-title">Nick's Skate Shop</h2>
+                      <div class="w-more">
+                        <span class="w-date">ASP.Net Core</span> /
+                        <span class="w-ctegory">C#</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <div class="btn" data-toggle="modal" data-target="#iLend">
+                <div class="work-img">
+                  <img src="img/work-3.jpg" alt="" class="img-fluid" />
+                </div>
+                <div class="work-content">
+                  <div class="row">
+                    <div class="col-sm-8">
+                      <h2 class="w-title">iLenders</h2>
+                      <div class="w-more">
+                        <span class="w-date">MEAN</span> /
+                        <span class="w-ctegory">JavaScript</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="paralax-mf footer-paralax bg-image sect-mt4 route"
+      style="background-image: url(img/background-bottom.jpg)"
+    >
+      <div class="overlay-mf"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="contact-mf">
+              <div id="contact" class="box-shadow-full">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="title-box-2">
+                      <h5 class="title-left">
+                        Looking for a Developer?
+                      </h5>
+                    </div>
+                    <div>
+                      <form
+                        id="my-form"
+                        action="https://formspree.io/mnqjkwqp"
+                        method="POST""
+                        method="post"
+                        role="form"
+                        class="contactForm mx-auto"
+                      >
+                        <!-- <div id="sendmessage">
+                          Your message has been sent. Thank you!
+                        </div>
+                        <div id="errormessage"></div> -->
+                        <div class="row">
+                          <div class="col-md-12 mb-3">
+                            <div class="form-group">
+                              <input
+                                type="text"
+                                name="name"
+                                class="form-control"
+                                id="name"
+                                placeholder="Your Name"
+                                data-rule="minlen:2"
+                                data-msg="Name must be at least 2 characters"
+                              />
+                              <div class="validation"></div>
+                            </div>
+                          </div>
+                          <div class="col-md-12 mb-3">
+                            <div class="form-group">
+                              <input
+                                type="email"
+                                class="form-control"
+                                name="email"
+                                id="email"
+                                placeholder="Your Email"
+                                data-rule="email"
+                                data-msg="Please enter a valid email"
+                              />
+                              <div class="validation"></div>
+                            </div>
+                          </div>
+                          <div class="col-md-12 mb-3">
+                            <div class="form-group">
+                              <input
+                                type="text"
+                                class="form-control"
+                                name="subject"
+                                id="subject"
+                                placeholder="Subject"
+                                data-rule="minlen:4"
+                                data-msg="Subject must be at least 4 characters"
+                              />
+                              <div class="validation"></div>
+                            </div>
+                          </div>
+                          <div class="col-md-12 mb-3">
+                            <div class="form-group">
+                              <textarea
+                                class="form-control"
+                                name="message"
+                                rows="5"
+                                data-rule="required"
+                                data-msg="Message is required"
+                                placeholder="Message"
+                              ></textarea>
+                              <div class="validation"></div>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <button
+                              type="submit"
+                              id="my-form-button"
+                              class="button button-a button-big button-rouded"
+                            >
+                              Send Message
+                            </button>
+                            <p id="my-form-status"></p>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="title-box-2 pt-4 pt-md-0">
+                      <h5 class="title-left">
+                        Let's Talk
+                      </h5>
+                    </div>
+                    <div class="more-info">
+                      <ul class="list-ico"></ul>
+                    </div>
+                    <div class="socials">
+                      <ul>
+                        <li>
+                          <a href="https://github.com/n1ckevans"
+                            ><span class="ico-circle"
+                              ><i class="ion-social-github"></i></span
+                          ></a>
+                        </li>
+                        <li>
+                          <a href="https://www.linkedin.com/in/n1ckevans/"
+                            ><span class="ico-circle"
+                              ><i class="ion-social-linkedin"></i></span
+                          ></a>
+                        </li>
+                        <li>
+                          <a href="mailto: nicholasevans17@gmail.com"
+                            ><span class="ico-circle"
+                              ><i class="ion-email"></i></span
+                          ></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+    <div id="preloader"></div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="skateSpots"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="skateSpotsLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title title-left" id="skateSpotsLabel">
+              Let's Skate!
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Let's Skate! is a full-stack web application, built using Python
+              with Django framework. By integrating Google Maps API, visitors
+              can view unique places to skateboard. Markers of each skate
+              spot populate on a map centered on the visitor’s geolocation. Each
+              marker is clickable and displays additional information including
+              name, description and an image of each spot. Registered
+              users can create, update or delete existing spots. Uploaded images are stored using an AWS S3 Bucket. The map markers are
+              stored as objects in a MySQL database and are rendered
+              dynamically when the page loads. Let's Skate is deployed using AWS EC2 on an
+              Ubuntu server with NGINX and Gunicorn.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <a type="button" class="btn btn-primary" href="http://13.57.201.1"
+              >View Project</a
+            >
+            <a
+              type="button"
+              class="btn btn-primary"
+              href="https://github.com/n1ckevans/skate_spots_map"
+              >View Code</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="skateShop"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="skateShopLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title title-left" id="skateShopLabel">
+              Nick's Skate Shop
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Nick's Skate Shop is a full-stack E-Commerce web application,
+              built using C# with ASP.NET Core framework. Skate Shop first
+              welcomes users to a landing page, where current promotions are
+              displayed. Visitors can search for items based on categories,
+              brands or sub-categories. Items can be added to a shopping cart,
+              which is stored in session until the user is ready to checkout.
+              Once a user is ready to checkout, an order summary page is
+              displayed where shipping and payment information is confirmed.
+              Payment is processed using Stripe API, or by using PayPal API.
+              After successful purchase, users are redirected to an order
+              confirmation page. Admins can Create, Update or Remove items,
+              which will update the items available for purchase. Each item for
+              sale is a unique object stored into a MySQL database. Skate Shop
+              is deployed using AWS EC2 on an Ubuntu server with NGINX and
+              Supervisor.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <a type="button" class="btn btn-primary" href="/">View Project</a>
+            <a
+              type="button"
+              class="btn btn-primary"
+              href="https://github.com/n1ckevans/skate_shop"
+              >View Code</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="iLend"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="iLendLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title title-left" id="iLendLabel">iLenders</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              iLenders is a full-stack application built using the MEAN stack in
+              collaboration with a team of 5 developers. Similar to apps like
+              OfferUp and Letgo, iLenders allows visitors to search for items in
+              their local area that are available for rent. Each item is stored
+              in a Mongoose database, and are displayed based on the current
+              user’s geolocation. Users can also search for items based on
+              categories. Each item will display a status, indicating if it is
+              available for rent, or if it currently unavailable. During
+              development, a wireframe was made, UI/UX was reviewed, Angular
+              components were divided up amongst the team, and Trello was
+              utilized to track progress. Github development branches were also
+              created to avoid merge conflicts with the master branch.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <a type="button" class="btn btn-primary" href="/">View Project</a>
+            <a
+              type="button"
+              class="btn btn-primary"
+              href="https://github.com/jonathanrlin/iLenders"
+              >View Code</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/jquery/jquery-migrate.min.js"></script>
+    <script src="lib/popper/popper.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/counterup/jquery.waypoints.min.js"></script>
+    <script src="lib/counterup/jquery.counterup.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+
+
+    <script src="js/main.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="/__/firebase/7.6.0/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="/__/firebase/7.6.0/firebase-analytics.js"></script>
+
+    <!-- Initialize Firebase -->
+    <script src="/__/firebase/init.js"></script>
+    <script>
+      window.addEventListener("DOMContentLoaded", function() {
+    
+        // get the form elements defined in your form HTML above
+        
+        var form = document.getElementById("my-form");
+        var name = document.getElementById("name");
+        var email = document.getElementById("email");
+        var subject = document.getElementById("subject");
+        var message = document.getElementById("message");
+
+
+        var button = document.getElementById("my-form-button");
+        var status = document.getElementById("my-form-status");
+    
+        // Success and Error functions for after the form is submitted
+        
+        function success() {
+          form.reset();
+          button.style = "display: none ";
+          status.innerHTML = "Thank you for reaching out!";
+        }
+    
+        function error() {
+          status.innerHTML = "Sorry please try again";
+        }
+    
+        // handle the form submission event
+    
+        form.addEventListener("submit", function(ev) {
+          ev.preventDefault();
+          var data = new FormData(form);
+          ajax(form.method, form.action, data, success, error);
+        });
+      });
+      
+      // helper function for sending an AJAX request
+    
+      function ajax(method, url, data, success, error) {
+        var xhr = new XMLHttpRequest();
+        xhr.open(method, url);
+        xhr.setRequestHeader("Accept", "application/json");
+        xhr.onreadystatechange = function() {
+          if (xhr.readyState !== XMLHttpRequest.DONE) return;
+          if (xhr.status === 200) {
+            success(xhr.response, xhr.responseType);
+          } else {
+            error(xhr.status, xhr.response, xhr.responseType);
+          }
+        };
+        xhr.send(data);
+      }
+    </script>
+  </body>
+</html>
