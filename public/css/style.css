@@ -23,7 +23,11 @@ a:hover {
   transition: all 0.5s ease-in-out;
 }
 
+#dan-img {
+  width: 44.5%;
+  height: 44.5%;
 
+}
 
 .box-shadow,
 .paralax-mf,
