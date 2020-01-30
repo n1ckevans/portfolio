@@ -577,9 +577,14 @@ a:hover {
   font-size: 3rem;
 }
 
+.intro-title {
+  text-shadow: 2px 2px black;
+}
+
 .intro .intro-subtitle {
   font-size: 1.5rem;
   font-weight: 300;
+  text-shadow: 2px 2px black;
 }
 
 .intro .text-slider-items {
