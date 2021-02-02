@@ -126,6 +126,30 @@
         <div class="row">
           <div class="col-md-4">
             <div class="work-box">
+              <div class="btn" data-toggle="modal" data-target="#memories">
+                <div class="work-img">
+                  <img src="img/seal.jpg" alt="Seal Beach Pier" class="img-fluid" />
+                </div>
+                <div class="work-content">
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <h2 class="w-title">Memories</h2>
+                      
+                      <div class="w-more">
+                        <p class="p-0 m-1">Social Media App</p>
+                        <span class="w-ctegory">React, Node.js, Express & MongoDB</span>    
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="col-md-4">
+            <div class="work-box">
               <div class="btn" data-toggle="modal" data-target="#greek">
                 <div class="work-img">
                   <img src="img/santorini.jpg" alt="" class="img-fluid" />
@@ -353,6 +377,56 @@
 
     <!-- Modal -->
     <div
+    class="modal fade"
+    id="memories"
+    tabindex="-1"
+    role="dialog"
+    aria-labelledby="memoriesLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title title-left" id="memoriesLabel">
+            Memories
+          </h5>
+          <button
+            type="button"
+            class="close"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>
+            "Memories" is a simple social media MERN application that allows users to post interesting events that happened in their lives.
+          <br>
+          <br>
+          Built using React, Node.js, Express & MongoDB. 
+            <br> 
+            <br>
+
+            Memories is deployed using Netlify
+          </p>
+        </div>
+        <div class="modal-footer">
+          <a type="button" class="btn btn-primary" href="https://mern-memories-2021.netlify.app/" target="_blank"
+            >View Project</a
+          >
+          <a
+            type="button"
+            class="btn btn-primary"
+            href="https://github.com/n1ckevans/Memories" target="_blank"
+            >View Code</a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- <div
       class="modal fade"
       id="greek"
       tabindex="-1"
@@ -522,7 +596,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <div
     class="modal fade"
@@ -553,7 +627,7 @@
               A redesign of an existing WordPress site, Dan Evans Real Estate was designed using HTML5, CSS3, JavaScript and Bootstrap 4 with a focus on UI/UX. 
               <br>
               <br>
-              Dan Evans Real Estate is fully responsive on any mobile device. 
+              Dan Evans Real Estate is fully responsive on all mobile devices. 
               <br>
               <br>
               Dan Evans Real Estate is deployed and hosted using HostGator.
@@ -572,55 +646,7 @@
     </div>
   </div>
 
-    <!-- <div
-      class="modal fade"
-      id="iLend"
-      tabindex="-1"
-      role="dialog"
-      aria-labelledby="iLendLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title title-left" id="iLendLabel">iLenders</h5>
-            <button
-              type="button"
-              class="close"
-              data-dismiss="modal"
-              aria-label="Close"
-            >
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <p>
-              iLenders is a full-stack application built using the MEAN stack in
-              collaboration with a team of 5 developers. Similar to apps like
-              OfferUp and Letgo, iLenders allows visitors to search for items in
-              their local area that are available for rent. Each item is stored
-              in a Mongoose database, and are displayed based on the current
-              user’s geolocation. Users can also search for items based on
-              categories. Each item will display a status, indicating if it is
-              available for rent, or if it currently unavailable. During
-              development, a wireframe was made, UI/UX was reviewed, Angular
-              components were divided up amongst the team, and Trello was
-              utilized to track progress. Github development branches were also
-              created to avoid merge conflicts with the master branch.
-            </p>
-          </div>
-          <div class="modal-footer">
-            <a type="button" class="btn btn-primary" href="/">View Project</a>
-            <a
-              type="button"
-              class="btn btn-primary"
-              href="https://github.com/jonathanrlin/iLenders"
-              >View Code</a
-            >
-          </div>
-        </div>
-      </div>
-    </div> -->
+ 
 
     <script src="lib/jquery/jquery.min.js"></script>
     <script src="lib/jquery/jquery-migrate.min.js"></script>
